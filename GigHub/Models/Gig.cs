@@ -14,6 +14,7 @@ namespace GigHub.Models
         [Required]
         public DateTime DateTime { get; set; }
         [Required]
+        [StringLength(255)]
         public String Venue { get; set; }
         public Genre Genre { get; set; }
     }
